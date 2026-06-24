@@ -79,11 +79,11 @@ export default function MemoryTimeline({ memories, herName }: MemoryTimelineProp
                 <div className="w-full md:w-1/2 pl-14 md:pl-0 md:px-10">
                   
                   {/* Perspective wrapper */}
-                  <div className="[perspective:1000px] w-full min-h-[400px] relative">
+                  <div className="[perspective:1000px] w-full min-h-[450px] relative">
                     {/* Flippable Container */}
                     <div
                       onClick={() => toggleCardFlip(memory.id)}
-                      className={`relative w-full h-[400px] cursor-pointer transition-transform duration-700 [transform-style:preserve-3d] ${
+                      className={`relative w-full h-[450px] cursor-pointer transition-transform duration-700 [transform-style:preserve-3d] ${
                         isFlipped ? "[transform:rotateY(180deg)]" : ""
                       }`}
                     >
@@ -135,33 +135,32 @@ export default function MemoryTimeline({ memories, herName }: MemoryTimelineProp
                       </div>
 
                       {/* === BACK FACE (Diary / Sweet Message) === */}
-                      <div className="absolute inset-0 w-full h-full bg-[#FCFBF8] rounded-2xl p-6 shadow-md border border-amber-100 flex flex-col justify-between [backface-visibility:hidden] [transform:rotateY(180deg)] select-none">
+                      <div className="absolute inset-0 w-full h-full bg-[#FCFBF8] rounded-2xl p-6 shadow-md border border-amber-100 flex flex-col [backface-visibility:hidden] [transform:rotateY(180deg)] select-none">
                         
-                        {/* Washi tape back view */}
-                        <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 w-24 h-7 bg-amber-50/80 border-b border-amber-100 pointer-events-none rotate-[1deg]" />
-
-                        <div className="space-y-4">
+                          {/* Washi tape back view */}
+                          <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 w-24 h-7 bg-amber-50/80 border-b border-amber-100 pointer-events-none rotate-[1deg]" />
+                          {/* Header */}
                           <div className="flex items-center justify-between border-b border-amber-100 pb-2">
-                            <span className="font-cursive text-rose-500 text-xl font-bold">Diary Page</span>
-                            <Heart className="w-4 h-4 fill-rose-500 text-rose-500 animate-pulse" />
-                          </div>
-
-                          <div className="pt-2">
-                            {/* Hand-written cursive message */}
-                            <p className="font-cursive text-slate-700 text-base md:text-lg leading-normal text-left whitespace-pre-wrap">
-                              {memory.description}
-                              </p>
+                            <span className="font-cursive text-rose-500 text-xl font-bold">
+                              Diary Page
+                              </span>
+                              <Heart className="w-4 h-4 fill-rose-500 text-rose-500 animate-pulse" />
                               </div>
-
-                        {/* Back-face signature / tap-back */}
-                        <div className="pt-3 border-t border-amber-100/60 flex items-center justify-between text-[9px] font-bold text-slate-400 uppercase tracking-widest">
-                          <span>Story continues...</span>
-                          <div className="flex items-center gap-1 text-rose-500">
-                            <span>Flip back</span> <RotateCw className="w-3 h-3 animate-spin-slow" />
-                          </div>
-                        </div>
-                      </div>
-
+                              {/* Message */}
+                              <div className="flex-1 pt-4 overflow-hidden">
+                                <p className="font-cursive text-slate-700 text-base md:text-lg leading-normal text-left whitespace-pre-wrap">
+                                  {memory.description}
+                                  </p>
+                                  </div>
+                                  {/* Footer */}
+                                  <div className="pt-3 border-t border-amber-100/60 flex items-center justify-between text-[9px] font-bold text-slate-400 uppercase tracking-widest">
+                                  <span>Story continues...</span>
+                                  <div className="flex items-center gap-1 text-rose-500">
+                                    <span>Flip back</span>
+                                    <RotateCw className="w-3 h-3 animate-spin-slow" />
+                                    </div>
+                                    </div>
+                                    </div>
                     </div>
                   </div>
 
