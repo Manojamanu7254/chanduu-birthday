@@ -79,12 +79,11 @@ export default function MemoryTimeline({ memories, herName }: MemoryTimelineProp
                 <div className="w-full md:w-1/2 pl-14 md:pl-0 md:px-10">
                   
                   {/* Perspective wrapper */}
-                  <div className="[perspective:1000px] w-full min-h-[340px] relative">
-                    
+                  <div className="[perspective:1000px] w-full min-h-[400px] relative">
                     {/* Flippable Container */}
                     <div
                       onClick={() => toggleCardFlip(memory.id)}
-                      className={`relative w-full h-[340px] cursor-pointer transition-transform duration-700 [transform-style:preserve-3d] ${
+                      className={`relative w-full h-[400px] cursor-pointer transition-transform duration-700 [transform-style:preserve-3d] ${
                         isFlipped ? "[transform:rotateY(180deg)]" : ""
                       }`}
                     >
@@ -149,10 +148,10 @@ export default function MemoryTimeline({ memories, herName }: MemoryTimelineProp
 
                           <div className="pt-2">
                             {/* Hand-written cursive message */}
-                          className="font-cursive text-slate-700 text-base md:text-lg leading-normal text-left whitespace-pre-wrap"
-                            </p>
-                          </div>
-                        </div>
+                            <p className="font-cursive text-slate-700 text-base md:text-lg leading-normal text-left whitespace-pre-wrap">
+                              {memory.description}
+                              </p>
+                              </div>
 
                         {/* Back-face signature / tap-back */}
                         <div className="pt-3 border-t border-amber-100/60 flex items-center justify-between text-[9px] font-bold text-slate-400 uppercase tracking-widest">
