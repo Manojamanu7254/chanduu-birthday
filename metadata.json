@@ -1,0 +1,6 @@
+{
+  "name": "Interactive Birthday Surprise",
+  "description": "A beautiful, fully-animated interactive birthday celebration website featuring virtual candle blowing, sweet memory timelines, balloon-popping surprises, and background music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
