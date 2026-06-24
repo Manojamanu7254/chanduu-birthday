@@ -70,14 +70,14 @@ With lots of love and warm wishes ❤️
     },
     {
       id: "m2",
-      date: "Our Coffee Date",
-      title: "Spilling Coffee & Secrets",
+      date: "Our Secrets",
+      title: "Spilling Ice Creams & Secrets",
       description: "Hours passed without us noticing. Every conversation, every laugh, and every shared thought became a memory I will always treasure.",
-      emoji: "☕"
+      emoji: "🍦"
     },
     {
       id: "m3",
-      date: "Late Night Walks",
+      date: "Our Conversations",
       title: "Under the Starry Canopy",
       description: "No matter what we talked about, every moment felt comfortable and genuine. Those conversations became some of my favorite memories.",
       emoji: "🌙"
