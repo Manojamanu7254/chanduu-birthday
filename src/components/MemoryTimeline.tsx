@@ -149,8 +149,7 @@ export default function MemoryTimeline({ memories, herName }: MemoryTimelineProp
 
                           <div className="pt-2">
                             {/* Hand-written cursive message */}
-                            <p className="font-cursive text-slate-700 text-xl md:text-2xl leading-relaxed text-left whitespace-pre-wrap font-semibold">
-                              {memory.description}
+                          className="font-cursive text-slate-700 text-base md:text-lg leading-normal text-left whitespace-pre-wrap"
                             </p>
                           </div>
                         </div>
