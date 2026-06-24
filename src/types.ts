@@ -34,36 +34,52 @@ export const DEFAULT_CONFIG: BirthdayConfig = {
   pageTitle: "Happy Birthday Chanduu! ✨",
   mainGreeting: "Happy Birthday, My Precious One!",
   mainSubtitle: "You make the world a warmer, brighter, and more beautiful place. Today, we celebrate the magical person that you are.",
-  letterContent: `Dear Chanduu👻🥰,
+  letterContent: `Dear Chanduu 👻🥰,
 
-Today is the day the world was blessed with your laughter, your beautiful heart, and your sweet soul. I wanted to create something special, something that stays forever—just like the wonderful memories we share.
+Happy Birthday to my most favorite person, my precious Kandamma.
 
-Every day with you feels like a gift. The way you smile, the way you care, and the light you bring into my life is simply irreplaceable. This little space is a small celebration of YOU, your birthday, and the beautiful journey we are on.
+On this beautiful day, I just want to remind you how much you mean to me. You bring a special kind of happiness into my life, turning ordinary days into unforgettable memories.
 
-I wish you a year filled with endless laughter, boundless success, and the absolute happiest moments. Thank you for being my constant, my joy, and my favorite person in the world.
+My sweet Kandamma,
+You are my comfort, my happy place,
+The gentlest smile upon my face.
+With your cute little ways and your heart so true,
+There is absolutely no one in this world like you.
 
-Always and forever,
-With all my love ❤️`,
+I love the way you make life feel brighter and happier just by being yourself. Every conversation, every laugh, and every memory with you has become something I deeply cherish.
+
+May your day be filled with happiness,
+With endless giggles and your favorite sweet treats.
+May your heart be light and your beautiful eyes bright,
+As you walk through a year where every dream meets.
+
+Thank you for being such an important part of my life. Your presence, support, and friendship mean more to me than words can ever express. You are truly special, Chanduu, today and always.
+
+Happy Birthday, my dear Kandamma.
+May this year bring you all the happiness, success, and beautiful moments you deserve.
+
+With lots of love and warm wishes ❤️
+`,
   memories: [
     {
       id: "m1",
       date: "The Day We Met",
       title: "First Hello",
-      description: "That unforgettable moment when our eyes met and our stories intertwined. A simple smile that changed my entire world.",
+      description: "That simple hello became one of the most beautiful parts of my life. Little did I know that day would bring someone so special into my world.",
       emoji: "✨"
     },
     {
       id: "m2",
       date: "Our Coffee Date",
       title: "Spilling Coffee & Secrets",
-      description: "Hours flew by like seconds. We talked about everything, from our deepest dreams to our silliest childhood fears.",
+      description: "Hours passed without us noticing. Every conversation, every laugh, and every shared thought became a memory I will always treasure.",
       emoji: "☕"
     },
     {
       id: "m3",
       date: "Late Night Walks",
       title: "Under the Starry Canopy",
-      description: "Walking hand-in-hand beneath the stars, sharing quiet moments and whispering sweet promises.",
+      description: "No matter what we talked about, every moment felt comfortable and genuine. Those conversations became some of my favorite memories.",
       emoji: "🌙"
     },
     {
